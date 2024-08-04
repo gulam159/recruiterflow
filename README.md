@@ -1,30 +1,79 @@
-# React + TypeScript + Vite
+# Recruiterflow Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application built with TypeScript and Vite. It leverages modern features such as Hot Module Replacement (HMR), ESLint configuration, and `framer-motion` for animations.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Preview URL](#preview-url)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Dependencies](#dependencies)
+- [Scripts](#scripts)
+- [Features](#features)
 
-## Expanding the ESLint configuration
+## Preview URL
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You can view the live application at the following URL:
 
-- Configure the top-level `parserOptions` property like this:
+**[https://recruiterflow.vercel.app/](https://recruiterflow.vercel.app/)**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Prerequisites
+
+- Node.js (v14 or later) installed on your machine.
+- npm (or Yarn) installed.
+
+## Getting Started
+
+
+- ```git clone https://github.com/gulam159/recruiterflow.git```
+- ```cd recruiterflow```
+- ```npm install```
+- ```npm run dev```
+
+
+
+
+
+## Dependencies
+
+### Core Dependencies
+
+- **axios**: For making HTTP requests.
+- **framer-motion**: For animations and motion components.
+- **react**: The core React library.
+- **react-dom**: React DOM rendering library.
+- **react-icons**: Icons for React components.
+
+### Development Dependencies
+
+- **@types/react**: TypeScript types for React.
+- **@types/react-dom**: TypeScript types for React DOM.
+- **@typescript-eslint/eslint-plugin**: ESLint plugin for TypeScript.
+- **@typescript-eslint/parser**: ESLint parser for TypeScript.
+- **@vitejs/plugin-react**: Vite plugin for React with Fast Refresh.
+- **autoprefixer**: PostCSS plugin for adding vendor prefixes.
+- **eslint**: Linter for JavaScript and TypeScript.
+- **eslint-plugin-react-hooks**: ESLint plugin for React hooks.
+- **eslint-plugin-react-refresh**: ESLint plugin for React Refresh.
+- **postcss**: PostCSS tool for processing CSS.
+- **tailwindcss**: Utility-first CSS framework for styling.
+- **typescript**: TypeScript compiler.
+- **vite**: Build tool and development server.
+
+
+
+## Scripts
+- **dev**: Starts the development server using Vite.
+- **build**: Compiles TypeScript and builds the project using Vite.
+- **lint**: Runs ESLint to check for code quality and style issues.
+- **preview**: Previews the production build locally.
+
+## Features
+
+- **TypeScript Integration**: Fully integrated TypeScript for type safety.
+- **Vite**: Fast development server with Hot Module Replacement (HMR).
+- **React Icons**: Utilizes `react-icons` for icon support.
+- **Framer Motion**: Provides smooth animations and transitions.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
